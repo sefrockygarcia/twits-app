@@ -1,0 +1,18 @@
+<form id="post-form">
+  <input type="hidden" id="post_id" value="">
+
+  <div class="input-field">
+    <input type="text" id="post_body" required="true" autofocus />
+    <label for="#post_body">Body</label>
+  </div>
+
+  <label>
+    <input type="checkbox" class="filled-in" id="post_private"/>
+    <span>Private</span>
+  </label>
+
+  <div class="input-field">
+    <button type="submit" class="btn waves-effect waves-light">Post</button>
+    <button type="button" class="btn waves-effect waves-light red" id="cancel-post">Cancel</button>
+  </div>
+</form>

@@ -185,6 +185,7 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+    will_paginate (3.3.1)
     zeitwerk (2.5.3)
 
 PLATFORMS
@@ -205,6 +206,7 @@ DEPENDENCIES
   turbolinks (~> 5)
   web-console (>= 4.1.0)
   webpacker (~> 5.0)
+  will_paginate (~> 3.3)
 
 RUBY VERSION
    ruby 2.7.2p137

@@ -1,6 +1,6 @@
-<nav role="navigation">
+<nav role="navigation" style="margin-bottom: 20px;">
   <div class="nav-wrapper container">
-    <a id="logo-container" href="#" class="brand-logo">Twits App</a>
+    <%= link_to "Twits App", root_path, class: "brand-logo" %>
     <ul class="right hide-on-med-and-down">
       <li>
         <%= link_to "Logout", destroy_user_session_path, method: :delete %>
